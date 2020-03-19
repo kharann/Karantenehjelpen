@@ -1,4 +1,4 @@
-name: Continuous Deployment
+name: Continuous Deployment of Development Instance
 
 on:
   release:
