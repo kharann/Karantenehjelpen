@@ -2,10 +2,11 @@ name: Continuous Deployment
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   deploy:
+    if: "!github.event.release.prerelease"
     runs-on: ubuntu-latest
     strategy:
       matrix:
