@@ -2,7 +2,11 @@ import firebase from "firebase/app";
 
 import "firebase/auth";
 
-firebase.initializeApp(JSON.parse(process.env.VUE_APP_FIREBASE_CONFIG));
+console.log(process.env.VUE_APP_FIREBASE_CONFIG);
+const config = JSON.parse(process.env.VUE_APP_FIREBASE_CONFIG);
+console.log(config);
+firebase.initializeApp(config);
+
 
 // firebase utils
 const db = firebase.firestore();
