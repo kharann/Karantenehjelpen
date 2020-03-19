@@ -1,5 +1,5 @@
 # init
-<img src="https://img.shields.io/github/v/release/s0lvang/Karantenehjelpen?style=for-the-badge" alt="lmao">
+<img src="https://img.shields.io/github/v/release/kharann/Karantenehjelpen?style=for-the-badge" alt="lmao">
 ## Project setup
 ```
 npm install
